@@ -18,9 +18,13 @@ jQuery(document).ready(function($) {
     /*----------------------------------------------------*/
     /* Smooth Scrolling
     ------------------------------------------------------ */
-
-    $('.smoothscroll').on('click', function(e) {
-        e.preventDefault();
+ $('.smoothscroll').on('click', function() {
+       console.log("ascs");
+       }); 
+    $('.smoothscroll').on('click', function(event) {
+        console.log("ascs");
+         if (this.hash !== "") {
+        event.preventDefault();
 
         var target = this.hash,
             $target = $(target);
@@ -30,6 +34,7 @@ jQuery(document).ready(function($) {
         }, 800, 'swing', function() {
             window.location.hash = target;
         });
+        }
     });
 
 

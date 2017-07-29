@@ -1,5 +1,28 @@
 // http://tutorialzine.com/2011/09/shuffle-letters-effect-jquery/ 
 
+jQuery(document).ready(function($) {
+
+ $('.smoothscroll').click(function(e) {
+        console.log("ascs");
+         if (this.hash !== "") {
+        e.preventDefault();
+
+        var target = this.hash,
+            $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 800, 'swing', function() {
+            window.location.hash = target;
+        });
+        }
+    });
+ 
+});
+
+
+
+
 
 function randomChar(type) {
     var pool = "";
