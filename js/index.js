@@ -147,10 +147,10 @@ $(function() {
             "text": "I'm a front end web developer"
         });
 
-        setTimeout(function() {
+   /*   setTimeout(function() {
             userText.val("ask me!!!").fadeIn();
         }, 2000);
-
+*/
     }, 1000);
     var home = ['', 'photo', 'picture', 'home-'];
     var about = ['old', 'from', 'long', 'experience', 'Email', 'email', 'phone', 'number','about-' ];
@@ -184,7 +184,7 @@ $(function() {
 
     }).bind('keypress', function(e) {
 
-        if (e.keyCode == 13) {
+        if (e.keyCode == 13  ) {
 
             // The return key was pressed
             inputValArry = userText.val().split(' ');
