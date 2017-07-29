@@ -54,8 +54,7 @@
       height: 200px;
       margin-left: 12px;
    }
-   #about .contact-details { width: 50%; }
-   #about .download { width: 50%; }
+ 
 
    /* Resume Section
    ------------------------------------------------------------------- */
@@ -91,6 +90,9 @@
 
 
 }
+
+  footer .contact-details { width: 50%; }
+   footer .download { width: 50%; }
 
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */

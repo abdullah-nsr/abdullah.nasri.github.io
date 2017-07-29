@@ -316,34 +316,11 @@ ul#nav li.current a {
     border-radius: 100%;
 }
 
-#about .contact-details {
-    width: 41.66667%;
-}
 
-#about .download {
-    width: 58.33333%;
-    padding-top: 6px;
-}
 
-#about .main-col {
-    padding-right: 5%;
+.download {
+    display: none;
 }
-
-#about .download .button {
-    margin-top: 6px;
-    background: #444;
-}
-
-#about .download .button:hover {
-    background: #fff;
-    color: #2B2B2B;
-}
-
-#about .download .button i {
-    margin-right: 15px;
-    font-size: 20px;
-}
-
 
 /* ------------------------------------------------------------------ */
 
@@ -1130,8 +1107,8 @@ call-to-action .button {
 
 #contact {
     background: #191919;
-    padding-top: 96px;
-    padding-bottom: 102px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     color: #636363;
 }
 
@@ -1139,10 +1116,7 @@ call-to-action .button {
     margin-bottom: 42px;
 }
 
-#contact a,
-#contact a:visited {
-    color: #11ABB0;
-}
+
 
 #contact a:hover,
 #contact a:focus {
@@ -1324,7 +1298,7 @@ footer a:visited {
 footer a:hover,
 footer a:focus {
     color: #fff;
-}
+}   
 
 
 /* copyright */
