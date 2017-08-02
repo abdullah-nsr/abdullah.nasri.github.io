@@ -14,7 +14,7 @@
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
-      font: 80px/1.1em 'opensans-bold', sans-serif;
+      font: 70px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
@@ -29,7 +29,7 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 65px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
@@ -189,9 +189,25 @@
 
    /* Header Styles
    -------------------------------------------------------------------- */
+ 
+    header {
+     background: #161415 url(../images/header767.jpg);
+  }
    header .banner {
       padding-bottom: 12px;
       padding-top: 6px;
+      height: 75%;
+      width: 87%;
+      position: absolute;
+      top : 12%;
+      left: 6%;
+   }
+    header .banner-text {
+      height: 75%;
+      width: 93%;
+      position: absolute;
+      top : 12%;
+      left: 3%;
    }
    header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
@@ -206,8 +222,11 @@
    /* header social links */
    header .social {
       margin: 18px 0 24px 0;
-      font-size: 24px;
-      line-height: 36px;      
+      font-size: 30px;
+      line-height: 36px;
+      bottom: 5%;
+      left: 5%;
+      width: 90%;   
    }
    header .social li { margin: 0 10px; }
 
@@ -362,7 +381,12 @@
    }
   
    /* header social links */
-   header .social { font-size: 20px;}
+   header .social { 
+     font-size: 30px;
+     bottom: 5%;
+     left: 5%;
+     width: 90%;
+   }
    header .social li { margin: 0 6px; }
 
    /* footer
