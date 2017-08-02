@@ -160,7 +160,7 @@
 
    /* display menu panels */
 	#nav-wrap:target > ul#nav	{
-	   display: block;
+	   display: grid;
       padding: 30px 20px 48px 20px;
       background: #1f2024;
       margin: 0 30px;
@@ -369,7 +369,7 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
-   #nav-wrap ul#nav { width: auto; float: none; }
+   #nav-wrap ul#nav {  }
 
    /* header styles
    -------------------------------------------------------------------- */
