@@ -382,6 +382,12 @@ ul#nav li.current a {
     padding-bottom: 24px;
     border-bottom: 1px solid #E8E8E8;
 }
+.Plista {
+   color: #000!important;
+}
+.Plista:hover {
+   color: #11ABB0!important;
+}
 
 #resume .info {
     font: 16px/24px 'librebaskerville-italic', serif;
