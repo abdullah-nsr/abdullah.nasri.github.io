@@ -76,9 +76,6 @@ header {
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(../images/header-background2.jpg) no-repeat top left;
-    background-size: cover !important;
-    -webkit-background-size: cover !important;
     text-align: center;
     overflow: hidden;
 }
@@ -453,22 +450,28 @@ ul#nav li.current a {
     border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-    width: 60%;
-    -moz-animation: photoshop 2s ease;
-    -webkit-animation: photoshop 2s ease;
-}
-
-.illustrator {
-    width: 55%;
-    -moz-animation: illustrator 2s ease;
-    -webkit-animation: illustrator 2s ease;
-}
-
-.wordpress {
+.jQuery {
     width: 50%;
-    -moz-animation: wordpress 2s ease;
-    -webkit-animation: wordpress 2s ease;
+    -moz-animation: jQuery 2s ease;
+    -webkit-animation: jQuery 2s ease;
+}
+
+.javascript {
+    width: 55%;
+    -moz-animation: javascript 2s ease;
+    -webkit-animation: javascript 2s ease;
+}
+
+.typescript {
+    width: 30%;
+    -moz-animation: typescript 2s ease;
+    -webkit-animation: typescript 2s ease;
+}
+
+.gitHup {
+    width: 60%;
+    -moz-animation: gitHup 2s ease;
+    -webkit-animation: gitHup 2s ease;
 }
 
 .css {
@@ -483,10 +486,10 @@ ul#nav li.current a {
     -webkit-animation: html5 2s ease;
 }
 
-.jquery {
+.bootstrap {
     width: 50%;
-    -moz-animation: jquery 2s ease;
-    -webkit-animation: jquery 2s ease;
+    -moz-animation: bootstrap 2s ease;
+    -webkit-animation: bootstrap 2s ease;
 }
 
 @-moz-keyframes photoshop {
