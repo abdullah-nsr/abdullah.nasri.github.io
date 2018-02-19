@@ -144,7 +144,7 @@ $(function() {
 
     setTimeout(function() {
         containerinfo.shuffleLetters({
-            "text": "I'm a front end web developer"
+            "text": "I'm frontend web developer"
         });
 
    /*   setTimeout(function() {

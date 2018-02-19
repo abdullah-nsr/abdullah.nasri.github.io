@@ -1,0 +1,72 @@
+{
+  "particles":{
+    "number":{
+      "value":100
+    },
+    "color":{
+      "value":"#2e4600"
+    },
+    "shape":{
+      "type":"image",
+      "stroke":{
+        "width":10,
+        "color":"#2e4600"
+      },
+      "image":{
+        "src":"https://www.iconsdb.com/icons/preview/green/leaf-xxl.png",
+        "width": 1000,
+        "height": 1000 
+      }
+    },
+    "opacity":{
+      "value":0.5,
+      "random":false,
+      "anim":{
+        "enable":false,
+        "speed":1
+      }
+    },
+    "size":{
+      "value": 20,
+      "random":false,
+      "anim":{
+        "enable": false,
+        "speed":30
+      }
+    },
+    "line_linked":{
+      "enable": true,
+      "distance": 120,
+      "color":"#7d4427",
+      "width":3
+    },
+    "move":{
+      "enable":true,
+      "speed":2,
+      "direction":"none",
+      "straight":false
+    }
+  },
+  "interactivity":{
+    "events":{
+      "onhover":{
+        "enable":true,
+        "mode":"repulse"
+      },
+      "onclick":{
+        "enable": true,
+        "mode":"push"
+      }
+    },
+    "modes":{
+      "repulse":{
+        "distance":50,
+        "duration":0.4
+      },
+      "bubble":{
+        "distance":100,
+        "size":10
+      }
+    }
+  }
+}
