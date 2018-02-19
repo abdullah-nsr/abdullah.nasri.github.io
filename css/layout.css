@@ -161,7 +161,7 @@ header .social li a {
 }
 
 header .social li a:hover {
-    color: #11ABB0;
+    color: rgb(14, 164, 122);
 }
 
 
@@ -187,7 +187,7 @@ header .scrolldown a {
 }
 
 header .scrolldown a:hover {
-    color: #11ABB0;
+    color: rgb(14, 164, 122);
 }
 
 
@@ -292,7 +292,7 @@ ul#nav li.current a {
 
 #about a:hover,
 #about a:focus {
-    color: #11ABB0;
+    color: rgb(14, 164, 122);
 }
 
 #about h2 {
@@ -330,7 +330,7 @@ ul#nav li.current a {
 
 .contact-details a {
 
-    color: #11ABB0;
+    color: rgb(14, 164, 122);
 }
 /* ------------------------------------------------------------------ */
 
@@ -347,7 +347,7 @@ ul#nav li.current a {
 
 #resume a,
 #resume a:visited {
-    color: #11ABB0;
+    color: rgb(14, 164, 122);
 }
 
 #resume a:hover,
@@ -362,7 +362,7 @@ ul#nav li.current a {
 }
 
 #resume h1 span {
-    border-bottom: 3px solid #11ABB0;
+    border-bottom: 3px solid rgb(14, 164, 122);
     padding-bottom: 6px;
 }
 
@@ -388,7 +388,7 @@ ul#nav li.current a {
    color: #000!important;
 }
 .Plista:hover {
-   color: #11ABB0!important;
+   color: rgb(14, 164, 122)!important;
 }
 
 #resume .info {
@@ -1217,7 +1217,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
     color: #fff;
-    background-color: #11ABB0;
+    background-color: rgb(14, 164, 122);;
 }
 
 #contact button.submit {
@@ -1239,7 +1239,7 @@ call-to-action .button {
 }
 
 #contact span.required {
-    color: #11ABB0;
+    color: rgb(14, 164, 122);;
     font-size: 13px;
 }
 
@@ -1258,7 +1258,7 @@ call-to-action .button {
 }
 
 #message-success {
-    color: #11ABB0;
+    color: rgb(14, 164, 122);
 }
 
 #message-warning i,
