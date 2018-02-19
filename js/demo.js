@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     dotColor: '#fff',
     lineColor: '#fff',
     lineWidth: 0.5,
-    curvedLines: true
+
   });
   console.log("done");
   var intro = document.getElementById('intro');
